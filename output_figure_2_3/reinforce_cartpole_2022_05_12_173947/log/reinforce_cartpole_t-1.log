@@ -1,0 +1,3 @@
+[2022-05-12 17:39:47,903 PID:31513 INFO search.py run_ray_search] Running ray search for spec reinforce_cartpole
+[2022-05-13 03:36:22,776 PID:31513 INFO analysis.py analyze_experiment] All experiment data zipped to data/reinforce_cartpole_2022_05_12_173947.zip
+[2022-05-13 03:36:22,777 PID:31513 INFO logger.py info] Experiment done

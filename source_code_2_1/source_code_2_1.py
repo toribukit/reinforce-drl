@@ -39,7 +39,7 @@ class Pi(nn.Module):
     def act(self, state):
         x = torch.from_numpy(state.astype(np.float32)) # to tensor
         pdparam = self.forward(x) # forward pass
-        print("pdparam", pdparam)
+        #print("pdparam", pdparam)
         pd = Categorical(logits=pdparam) # probability distribution
         action = pd.sample() # pi(a|s) in action via pd
         log_prob = pd.log_prob(action) # log_prob of pi(a|s)
